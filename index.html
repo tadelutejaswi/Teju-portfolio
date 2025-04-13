@@ -1,917 +1,456 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-
-    <title>Khyati's Portfolio</title>
-    <link rel="icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;300;400;600;700&display=swap"
-        rel="stylesheet">
-    <link href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.css" rel="stylesheet"
-        type='text/css'>
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
-
-    <link
-    rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
-  />
-
-
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js"></script>
-</head>
-
-<body>
-    
-    <!-- home function -->
-    <div id="header">
-        <div class="container box">
-            <nav>
-                <!-- <img src="images/cover.png" class="logo" width="100px"> -->
-
-                <ul id="sidemenu">
-                    <li><a href="#header">Home</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#contactme">Contact</a></li>
-              
-                  
-                    <i class="fas fa-times" onclick="closemenu()"></i>
-                </ul>
-                <i class="fas fa-bars" onclick="openmenu()"></i>
-            </nav>
-
-            <div class="header-text">
-
-                <div class="loader  animate__animated animate__slideInDown">
-                    <div class="snow">
-                        <span style="--i:11"></span>
-                        <span style="--i:12"></span>
-                        <span style="--i:15"></span>
-                        <span style="--i:17"></span>
-                        <span style="--i:18"></span>
-                        <span style="--i:13"></span>
-                        <span style="--i:14"></span>
-                        <span style="--i:19"></span>
-                        <span style="--i:20"></span>
-                        <span style="--i:10"></span>
-                        <span style="--i:18"></span>
-                        <span style="--i:13"></span>
-                        <span style="--i:14"></span>
-                        <span style="--i:19"></span>
-                        <span style="--i:20"></span>
-                        <span style="--i:10"></span>
-                        <span style="--i:18"></span>
-                        <span style="--i:13"></span>
-                        <span style="--i:14"></span>
-                        <span style="--i:19"></span>
-                        <span style="--i:20"></span>
-                        <span style="--i:10"></span>
-                    </div>
-                </div>
-                <div class="loaader  animate__animated animate__slideInDown">
-                    <div class="snow">
-                        <span style="--i:11"></span>
-                        <span style="--i:12"></span>
-                        <span style="--i:15"></span>
-                        <span style="--i:17"></span>
-                        <span style="--i:18"></span>
-                        <span style="--i:13"></span>
-                        <span style="--i:14"></span>
-                        <span style="--i:19"></span>
-                        <span style="--i:20"></span>
-                        <span style="--i:10"></span>
-                        <span style="--i:18"></span>
-                        <span style="--i:13"></span>
-                        <span style="--i:14"></span>
-                        <span style="--i:19"></span>
-                        <span style="--i:20"></span>
-                        <span style="--i:10"></span>
-                        <span style="--i:18"></span>
-                        <span style="--i:13"></span>
-                        <span style="--i:14"></span>
-                        <span style="--i:19"></span>
-                        <span style="--i:20"></span>
-                        <span style="--i:10"></span>
-                    </div>
-                </div>
-                <div class="setdiv  animate__animated animate__slideInUp">
-                    
-                    <h2>Hi, I'm <br></h2>
-                    <h1><span>Khyati Chahal</span></h1>
-                    <p>Student🧑‍💻 - Aspiring Software Engineer💻</p>
-                    <!-- <a href="https://git.io/typing-svg">
-                        <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&width=500&lines=Preparing+for+SDE+Role;DSA+Grind+On;Building+Projects+%26+Exploring+AI/ML" alt="Typing SVG" />
-                      </a> -->
-                      
-
-               
-
-                    <div class="wrapper">
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="circle"></div>
-                        <div class="shadow"></div>
-                        <div class="shadow"></div>
-                        <div class="shadow"></div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="notification"
-                onclick="window.location.href = 'https://drive.google.com/file/d/1Of2qOEGnhBMIYhwq9v65qfBQhfFHQ33m/view?usp=drivesdk g';">
-                <p>Would you like to check my Resume ?😊</p>
-                <span class="notification__progress"></span>
-            </div>
-
-        </div>
-    </div>
-
-    <script src="Section-Home/menu.js"></script>
-
-    <!-- home function -->
-
-    <div id="progress">
-        <span id="progress-value" class="gotoTop">
-            <?xml version="1.0" ?>
-            <!DOCTYPE svg PUBLIC '-//W3C//DTD SVG 1.1//EN' 'http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd'><svg
-                height="512px" id="Layer_1" style="enable-background:new 0 0 512 512;" version="1.1"
-                viewBox="0 0 512 512" width="512px" xml:space="preserve" xmlns="http://www.w3.org/2000/svg"
-                xmlns:xlink="http://www.w3.org/1999/xlink">
-                <path
-                    d="M128.4,189.3L233.4,89c5.8-6,13.7-9,22.4-9c8.7,0,16.5,3,22.4,9l105.4,100.3c12.5,11.9,12.5,31.3,0,43.2  c-12.5,11.9-32.7,11.9-45.2,0L288,184.4v217c0,16.9-14.3,30.6-32,30.6c-17.7,0-32-13.7-32-30.6v-217l-50.4,48.2  c-12.5,11.9-32.7,11.9-45.2,0C115.9,220.6,115.9,201.3,128.4,189.3z" />
-            </svg>
-        </span>
-    </div>
-    <script src="Section-Home/Scroll-Top.js"></script>
-
-
-    <!-- about section -->
-    <div id="about">
-        <div class="containers box">
-            <div class="row">
-                <div class="col-1">
-                    <h1 class="sub-title">About Me</h1>
-
-                    <div class="sub-line">
-                        <p>
-                            Hey there! I'm <b>Khyati Chahal</b> 👋, a passionate Computer Science student 👩‍💻 in my pre-final year of B.Tech. I transform ideas into reality through code ✨, focusing on full-stack development 🌐, DSA 🧮, and exploring AI 🤖 & cybersecurity 🔒.
-I believe in <b>learning by doing</b> 🚀 — each project, bug, and breakthrough shapes my journey as a developer. My hands-on approach helps me solve real-world problems while continuously expanding my technical toolkit 🛠️.
-I'm always eager to collaborate on innovative projects and connect with others in the tech community! 🤝✨
-                        </p>
-                    </div>
-
-                    <div class="tab-titles">
-                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
-                        <p class="tab-links" onclick="opentab('experience')">Experience</p>
-                        <p class="tab-links" onclick="opentab('education')">Education</p>
-                        <p class="tab-links" onclick="opentab('others')">Others</p>
-                    </div>
-
-                    <div class="tab-contents active-tab" id="skills">
-                        <ul>
-                            <li><span>Competitive Programming : <br></span>
-                                <div class="space1">
-                                    <img
-                                    src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white">
-                                </div>
-                            </li>
-                        
-                            <li><span>Web Development : <br></span>
-                                <div class="space1">
-                                    <img
-                                        src="https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"><br>
-                                    <img
-                                        src="https://img.shields.io/badge/Express.js-000000.svg?style=for-the-badge&logo=express&logoColor=white">
-                                    <img 
-                                        src="https://img.shields.io/badge/Node.js-339933.svg?style=for-the-badge&logo=node.js&logoColor=white">
-                                    <img 
-                                        src="https://img.shields.io/badge/React-61DAFB.svg?style=for-the-badge&logo=react&logoColor=black">
-
-                                </div>
-                            </li>
-                            
-                            <li><span> Collaboration : <br></span>
-                                <div class="space1">
-                                    <img
-                                        src="https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white">
-    
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-
-
-                    <div class="tab-contents" id="others">
-                        <ul>
-                            <li><span>Game Development <br></span>
-                                <div class="space1">
-                                    <img
-                                        src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54">
-                                </div>
-                            </li>
-                            <li><span>Machine Learning: <br></span>
-                                <div class="space1">
-                                    <img
-                                        src="https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=TensorFlow&logoColor=white">
-
-                                </div>
-                            </li>
-                            <li><span>Database Management <br></span>
-                                <div class="space1">
-                                    <img
-                                        src="https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=MongoDB&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/mysql-%2300f.svg?style=for-the-badge&logo=mysql&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=Postgresql&logoColor=white">
-                                </div>
-                            </li>
-                            <li><span>Operating System <br></span>
-                                <div class="space1">
-                                    <img
-                                        src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=Linux&logoColor=white">
-                                    <img
-                                        src="https://img.shields.io/badge/Unix-000000?style=for-the-badge&logo=Unix&logoColor=white">
-                                  
-                                </div>
-                            </li>
-
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="education">
-                        <ul>
-                            <li><span class="Education"><b>B.Tech in Computer Science Engineering</b> </span><br>
-
-                                <p>Graphic Era Hill University, Dehradun </p>
-                                <p align="left">2022 - Present <span class="cg">(CGPA - 8.16)</span> </p>
-
-
-                            </li><br>
-                            <li><span class="Education"><b>Class 12th - CBSE</b></span><br>
-                                <p>St. Mary's Convent School, Gajraula, Uttar Pradesh</p>
-                                <p align="left">2020-2021 <span class="cg">(Percentage - 88%)</span></p>
-                            </li><br>
-                            
-                            <li><span class="Education"><b>Class 10th - CBSE</b></span><br>
-                                <p>St. Mary's Convent School, Gajraula, Uttar Pradesh</p>
-                                <p align="left">2018-2019 <span class="cg">(Percentage - 92%)</span></p>
-                            </li>
-                        </ul>
-                    </div>
-
-                    <div class="tab-contents" id="experience">
-                        <ul>
-                            <li><span class="Education"><b>Looking For Intership Oppurtunity</b> </span><br>
-
-                                <p>Check Out My Resume</p>
-                                <button class="button"
-                                onclick="window.open('https://drive.google.com/file/d/1Of2qOEGnhBMIYhwq9v65qfBQhfFHQ33m/view?usp=drivesdk', '_blank');"
-
-                                    <span class="button_lg">
-                                        <span class="button_sl"></span>
-                                        <span class="button_text">Download Now</span>
-                                    </span>
-                                </button>
-
-
-                            </li><br>
-                        </ul>
-                    </div>
-
-                </div>
-                <div class="col-2">
-                    <img src="images/about.png">
-
-                </div>
-
-            </div>
-
-        </div>
-
-
-    </div>
-
-    <script>
-        var tablinks = document.getElementsByClassName("tab-links");
-        var tabcontents = document.getElementsByClassName("tab-contents");
-
-        function opentab(tabname) {
-            for (tablink of tablinks) {
-                tablink.classList.remove("active-link");
-            }
-
-            for (tabcontent of tabcontents) {
-                tabcontent.classList.remove("active-tab");
-            }
-            event.currentTarget.classList.add("active-link");
-            document.getElementById(tabname).classList.add("active-tab");
-
+    <title>Tejaswi Tadelu | Portfolio</title>
+    <style>
+        :root {
+            --primary-color: #3498db;
+            --secondary-color: #2c3e50;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+            --text-light: #7f8c8d;
         }
-    </script>
-    <!-- about section -->
-
-    
-
-
-    <!-- skills Section -->
-    
-    <h1 class="h1s box">My Skills</h1>
-    <br>
-    <div class="process-wrapperd box">
-        <div id="progress-bar-container">
-            <ul>
-                <li class="step step01 active">
-                    <div class="step-inner">Frontend Development</div>
-                </li>
-                <li class="step step02">
-                    <div class="step-inner">Machine Learning</div>
-                </li>
-                <li class="step step03">
-                    <div class="step-inner">Language</div>
-                </li>
-                <li class="step step04">
-                    <div class="step-inner">Backend Developemt</div>
-                </li>
-                <li class="step step05">
-                    <div class="step-inner">Others</div>
-                </li>
-            </ul>
-
-            <div id="line">
-                <div id="line-progress"></div>
-            </div>
-        </div>
-
-        <div id="progress-content-section">
-            <div class="section-content discovery active">
-              
-
-                <div class="skills">
-
-                    <div class="wrapperd">
-                        <div class="carded">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">HTML & CSS</div>
-                        </div>
-
-                        <div class="carded js">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">JavaScript</div>
-                        </div>
-
-                        <div class="carded react">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">React</div>
-                        </div>
-
-                    </div>
-                    
-
-                    
-
-                </div>
-
-                <h2>Frontend Web Developemt Skills</h2>
-
-            </div>
-
-
-            <div class="section-content strategy">
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        
+        body {
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: #f9f9f9;
+        }
+        
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        header {
+            background-color: var(--secondary-color);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+        
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        header p {
+            font-size: 1.1rem;
+            opacity: 0.9;
+        }
+        
+        .contact-info {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-top: 1rem;
+        }
+        
+        .contact-info a {
+            color: white;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            gap: 0.3rem;
+            transition: opacity 0.3s;
+        }
+        
+        .contact-info a:hover {
+            opacity: 0.8;
+        }
+        
+        section {
+            padding: 2rem 0;
+            border-bottom: 1px solid #eee;
+        }
+        
+        section:last-child {
+            border-bottom: none;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            font-size: 1.8rem;
+            position: relative;
+            padding-bottom: 0.5rem;
+        }
+        
+        h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 60px;
+            height: 3px;
+            background-color: var(--accent-color);
+        }
+        
+        .objective {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .skills-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+        
+        .skills-list, .competencies-list {
+            list-style-type: none;
+        }
+        
+        .skills-list li, .competencies-list li {
+            margin-bottom: 0.8rem;
+            position: relative;
+            padding-left: 1.5rem;
+        }
+        
+        .skills-list li::before, .competencies-list li::before {
+            content: '▹';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+        
+        .education-item, .experience-item, .project-item, .certification-item {
+            margin-bottom: 1.5rem;
+        }
+        
+        .item-header {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+        
+        .item-title {
+            font-weight: bold;
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+        }
+        
+        .item-date {
+            color: var(--text-light);
+            font-style: italic;
+        }
+        
+        .item-subtitle {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+        
+        .item-description {
+            margin-bottom: 0.5rem;
+        }
+        
+        .item-highlights {
+            list-style-type: none;
+        }
+        
+        .item-highlights li {
+            margin-bottom: 0.3rem;
+            position: relative;
+            padding-left: 1.2rem;
+        }
+        
+        .item-highlights li::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: var(--accent-color);
+        }
+        
+        .certifications-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+        }
+        
+        .languages-interests {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+        }
+        
+        .interests-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+            list-style-type: none;
+        }
+        
+        .interests-list li {
+            background-color: var(--light-color);
+            padding: 0.3rem 0.8rem;
+            border-radius: 20px;
+            font-size: 0.9rem;
+        }
+        
+        footer {
+            background-color: var(--dark-color);
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 2rem;
+        }
+        
+        .declaration {
+            font-style: italic;
+            text-align: center;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 768px) {
+            header h1 {
+                font-size: 2rem;
+            }
             
-
-                <div class="skills">
-
-                    <div class="wrapperd">
-                        <div class="carded java">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Pandas</div>
-                        </div>
-
-                        <div class="carded as">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Numpy</div>
-                        </div>
-
-                        <div class="carded firebase">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Flask</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <h2>Machine Learning Development Skills</h2>
-            </div>
-
-            <div class="section-content creative">
-                
-                <div class="skills">
-
-                    <div class="wrapperd">
-                        <div class="carded cc">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Java</div>
-                        </div>
-
-                        <div class="carded python">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">C / C++</div>
-                        </div>
-
-                        <div class="carded java">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Python</div>
-                        </div>
-
-                    </div>
-                </div>
-
-                <h2>Programming Languages</h2>
-            </div>
-
-            <div class="section-content production">
-           
-                <div class="skills">
-
-                    <div class="wrapperd">
-                        <div class="carded node">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">NodeJs</div>
-                        </div>
-
-                        <div class="carded sql">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">MySQL</div>
-                        </div>
-
-                        <div class="carded php">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Express.js</div>
-                        </div>
-
-                    </div>
-                </div>
-
-
-                <h2>Backend Web Developemt Skills</h2>
-            </div>
-
-            <div class="section-content analysis">
-              
-                <div class="skills">
-
-                    <div class="wrapperd">
-                        <div class="carded git">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Git & GitHub</div>
-                        </div>
-
-                        <div class="carded canva">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Pygame</div>
-                        </div>
-
-                        <div class="carded canva">
-                            <div class="circled">
-                                <div class="bar"></div>
-                                <div class="box"><span></span></div>
-                            </div>
-                            <div class="text">Vercel and Render</div>
-                        </div>
-
-                    </div>
-                </div>
-                <h2>Designing and Collaboration Skills</h2>
+            .item-header {
+                flex-direction: column;
+            }
+            
+            .item-date {
+                margin-top: 0.2rem;
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Tejaswi Tadelu</h1>
+            <p>BCA Graduate | Cloud Computing | AI/ML Enthusiast</p>
+            <div class="contact-info">
+                <a href="tel:+917396607942"><i class="fas fa-phone"></i> +91 7396607942</a>
+                <a href="mailto:tadelutejaswi9@gmail.com"><i class="fas fa-envelope"></i> tadelutejaswi9@gmail.com</a>
+                <a href="www.linkedin.com/in/tejaswi-madeena-tadelu-6780a3337" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/tadelutejaswi" target="_blank"><i class="fab fa-github"></i> GitHub</a>
             </div>
         </div>
-    </div>
+    </header>
 
-    <script>
-        let optionse = {
-            startAngle: -1.55,
-            size: 150,
-            value: 0.95,
-            fill: { gradient: ["#526D82", "rgb(2, 6, 48)"] },
-        };
-        $(".circled .bar")
-            .circleProgress(optionse)
-            .on("circle-animation-progress", function (event, progress, stepValue) {
-                $(this)
-                    .parent()
-                    .find("span")
-                    .text(String(stepValue.toFixed(2).substr(2)) + "%");
-            });
-        $(".js .bar").circleProgress({
-            value: 0.86,
-        });
-        $(".react .bar").circleProgress({
-            value: 0.75,
-        });
-        $(".java .bar").circleProgress({
-            value: 0.92,
-        });
-        $(".as .bar").circleProgress({
-            value: 0.88,
-        });
-        $(".firebase .bar").circleProgress({
-            value: 0.82,
-        });
-        $(".cc .bar").circleProgress({
-            value: 0.98,
-        });
-        $(".python .bar").circleProgress({
-            value: 0.84,
-        });
-        $(".node .bar").circleProgress({
-            value: 0.22,
-        });
-        $(".sql .bar").circleProgress({
-            value: 0.84,
-        });
-        $(".php .bar").circleProgress({
-            value: 0.78,
-        });
-        $(".git .bar").circleProgress({
-            value: 0.93,
-        });
-        $(".canva .bar").circleProgress({
-            value: 0.89,
-        });
-        $(".figma .bar").circleProgress({
-            value: 0.84,
-        });
-    </script>
+    <main class="container">
+        <section id="objective">
+            <h2>Objective</h2>
+            <p class="objective">
+                BCA graduate skilled in Python, Java & AWS Cloud, with hands-on AI/ML and cybersecurity experience. 
+                Certified by Harvard CS50 and Cisco, I've boosted project efficiency by 20% and AI model accuracy by 15%. 
+                A proactive problem-solver passionate about scalable tech solutions.
+            </p>
+        </section>
 
-
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-    <script>
-
-        $(".step").click(function () {
-            $(this).addClass("active").prevAll().addClass("active");
-            $(this).nextAll().removeClass("active");
-        });
-
-        $(".step01").click(function () {
-            $("#line-progress").css("width", "3%");
-            $(".discovery").addClass("active").siblings().removeClass("active");
-        });
-
-        $(".step02").click(function () {
-            $("#line-progress").css("width", "25%");
-            $(".strategy").addClass("active").siblings().removeClass("active");
-        });
-
-        $(".step03").click(function () {
-            $("#line-progress").css("width", "50%");
-            $(".creative").addClass("active").siblings().removeClass("active");
-        });
-
-        $(".step04").click(function () {
-            $("#line-progress").css("width", "75%");
-            $(".production").addClass("active").siblings().removeClass("active");
-        });
-
-        $(".step05").click(function () {
-            $("#line-progress").css("width", "100%");
-            $(".analysis").addClass("active").siblings().removeClass("active");
-        });
-
-
-    </script>
-
-    <!-- skill section -->
-
-
-
-    <!-- Projects section -->
-    <div id="projects">
-        <div class="containers box">
-            <h1 class="sub-title">My Projects</h1>
-            <div class="service-list">
+        <section id="skills">
+            <h2>Technical Skills</h2>
+            <div class="skills-container">
                 <div>
-                    <div class="card"
-                        onclick="window.location.href = 'https://github.com/KhyatiChahal/khyati-portfolio';">
-                        <div class="card1">
-                            <div class="position">
-                                <img align="center" class="icon" src="images/Port.gif" width="190">
-                                <span class="p_hcolor">Portfolio</span>
-                                <p>
-                                    Personal Reponsive Portfolio Website of mine
-                                </p>
-                                <p>
-                                    <b><span class="p_color">Langauge :</span></b> HTML , CSS <br>
-                                    <b><span class="p_color">Framework :</span></b> Vanila JS <br>
-                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
-
-                                </p>
-
-                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                            </div>
-
-                        </div>
-                    </div>
+                    <ul class="skills-list">
+                        <li><strong>Programming Languages:</strong> C, Java, Python</li>
+                        <li><strong>Web technologies:</strong> HTML, CSS, JavaScript</li>
+                        <li><strong>Database Management:</strong> MySQL basics</li>
+                        <li><strong>Amazon Web Services:</strong> Cloud computing</li>
+                        <li><strong>AI/ML:</strong> Basics in Artificial Intelligence, Machine Learning with Python</li>
+                    </ul>
                 </div>
                 <div>
-                    <div class="card"
-                        onclick="window.location.href = 'https://github.com/KhyatiChahal/Drowsiness_detection';">
-                        <div class="card2">
-                            <div class="position">
-                                <img align="center" class="icon" src="images/auto.gif" width="190">
-                                <span class="p_hcolor"> Drowsiness Detection </span>
-                                <p>
-                                    Detects driver drowsiness in real-time to help prevent road accidents.
-                                </p>
-                                <p>
-                                    <b><span class="p_color">Backend :</span></b> Python (Flask)<br>
-                                    
-                                </p>
-                                
-                                
-
-                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                            </div>
-
-                        </div>
-                    </div>
+                    <h3>Behavioral Competencies</h3>
+                    <ul class="competencies-list">
+                        <li><strong>Leadership:</strong> Led 5-member AWS project team; improved efficiency by 20%</li>
+                        <li><strong>Teamwork:</strong> Collaborated in academic & internship teams; boosted outcomes by 30%</li>
+                        <li><strong>Time Management:</strong> Met all deadlines across multiple projects & internship</li>
+                        <li><strong>Adaptability:</strong> Quickly learned new tools during certifications</li>
+                        <li><strong>Communication:</strong> Presented project results tailored to diverse audiences</li>
+                    </ul>
                 </div>
-                <div>
-                    <div class="card" onclick="window.location.href = 'https://github.com/KhyatiChahal/WanderLust';">
-                        <div class="card3">
-                            <div class="position">
-                                <img align="center" class="icon" src="images/rent.gif" width="190">
-                                <span class="p_hcolor">WanderLust</span>
-                                <p>
-                                    A sleek web app to explore and book travel destinations effortlessly.
-                                </p>
-                                <p>
-                                    <b><span class="p_color">Language:</span></b> JavaScript<br>
-                                    <b><span class="p_color">Framework:</span></b> Node.js, Express.js<br>
-                                    <b><span class="p_color">Database:</span></b> MongoDB
-                                </p>
-                                
-
-                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card" onclick="window.location.href = 'https://github.com/KhyatiChahal/connectify';">
-                        <div class="card4">
-                            <div class="position">
-                                <img align="center" class="icon" src="images/hero.gif" width="190">
-                                <span class="p_hcolor">Connectify</span>
-                                <p>
-                                    Real-time video calling app, designed for seamless virtual meetings.
-                                </p>
-                                <p>
-                                    <b><span class="p_color">Language:</span></b> JavaScript<br>
-                                    <b><span class="p_color">Framework:</span></b> React.js, Node.js<br>
-                                </p>
-                                
-
-                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-                <div>
-                    <div class="card"
-                        onclick="window.location.href = 'https://github.com/KhyatiChahal/Space-Invaders';">
-                        <div class="card5">
-                            <div class="position">
-                                <img align="center" class="icon" src="images/hero1.gif" width="190">
-                                <span class="p_hccolor">Space Invaders</span>
-                                <p>
-                                    A fun, fast-paced game that tests reflexes and precision.
-                                </p>
-                                <p>
-                                    <b><span class="p_color">Langauge :</span></b> Python <br>
-                                    <b><span class="p_color">Environment :</span></b> Visual Studio <br>
-                                    <b><span class="p_color">Library :</span></b> Pygame
-                                </p>
-
-                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="card" onclick="window.location.href = 'https://github.com/KhyatiChahal/EVA-BOT';">
-                    <div class="card6">
-                        <div class="position">
-                            <img align="center" class="icon" src="images/bot.gif" width="190">
-                            <span class="p_hccolor">Eva Talking Bot</span>
-                            <p>
-                                A virtual bot that talks with you and makes your daily life much easier by
-                                doing things for you
-                            </p>
-                            <p>
-                                <b><span class="p_color">Langauge :</span></b> Python <br>
-                                <b><span class="p_color">Environment :</span></b> Pycharm <br>
-                            </p>
-
-                            <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div>
-                    <div class="card" onclick="window.location.href = 'https://github.com/KhyatiChahal/To-Do-app';">
-                        <div class="card7">
-                            <div class="position">
-                                <img align="center" class="icon" src="images/to-do-list.gif" width="190">
-                                <span class="p_hccolor"> To-do App</span>
-                                <p>
-                                    Intuitive app to manage daily tasks and stay organized.
-                                </p>
-                                <p>
-                                    <b><span class="p_color">Langauge :</span></b> HTML, CSS, JavaScript<br>
-                                    <b><span class="p_color">Environment :</span></b> VS Code <br>
-                                </p>
-
-                                <p align="right"><i><span class="p_color">(Learn more)</span></i></p>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Projects section -->
-    <!-- contact me -->
-
-    <div id="contactme" class="box">
-        <section class="contact hidden">
-            <div class="contact-form">
-                <h1>Contact <span class="us">Me</spanc>
-                </h1>
-                <p>Connect with wih me via 
-                    email: khyati2004chahal@gmail.com
-                </p>
-                <form action="https://formspree.io/f/mrbpjgqa" method="POST">
-                    <input type="name" name="name" placeholder="Your Name" required>
-                    <input type="email" name="email" id="" placeholder="E-mail" required>
-                    <input type="subject" placeholder="Write a Subject" required>
-                    <textarea name="Message" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
-                    <button class="btn">Submit</button>
-                </form>
-
-            </div>
-            <div class="contact-img">
-                <img class="check" src="images/contact.jpg">
             </div>
         </section>
-    </div>
 
-    <!-- contact me -->
+        <section id="education">
+            <h2>Education</h2>
+            <div class="education-item">
+                <div class="item-header">
+                    <span class="item-title">BCA, Andhra University – Aditya Degree College</span>
+                    <span class="item-date">Expected 2025</span>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="item-header">
+                    <span class="item-title">Intermediate (BiPC), Sri Chaitanya Jr. College</span>
+                    <span class="item-date">2021 – 90.7%</span>
+                </div>
+            </div>
+            <div class="education-item">
+                <div class="item-header">
+                    <span class="item-title">SSC, Pollocks School</span>
+                    <span class="item-date">2019 – GPA: 9.3</span>
+                </div>
+            </div>
+        </section>
 
+        <section id="projects">
+            <h2>Projects</h2>
+            <div class="project-item">
+                <div class="item-header">
+                    <span class="item-title">CS50 – Intro to Computer Science</span>
+                </div>
+                <p class="item-description">Improved algorithmic problem-solving and code efficiency by 25% through mastery of data structures and C programming.</p>
+            </div>
+            <div class="project-item">
+                <div class="item-header">
+                    <span class="item-title">Tata Group – Micro-Internship Simulations (Remote)</span>
+                </div>
+                <ul class="item-highlights">
+                    <li><strong>Cybersecurity Analyst:</strong> Threat analysis, risk mitigation, incident response</li>
+                    <li><strong>ESG Analyst:</strong> ESG metrics evaluation, sustainability strategy, SDG alignment</li>
+                    <li><strong>Data Visualization Specialist:</strong> Built dashboards in Power BI/Tableau for business insights</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <div class="item-header">
+                    <span class="item-title">Deloitte Australia – Data Analytics Simulation (Forage, Apr 2025)</span>
+                </div>
+                <ul class="item-highlights">
+                    <li>Built interactive dashboards in Tableau, analyzed forensic datasets</li>
+                    <li>Used Excel for data classification and generating business recommendations</li>
+                </ul>
+            </div>
+            <div class="project-item">
+                <div class="item-header">
+                    <span class="item-title">Volunteer Management System – Community Project</span>
+                </div>
+                <p class="item-description">Developed system using MySQL, increasing NGO operational efficiency by 35%</p>
+            </div>
+        </section>
 
-    <div class="Social box">
-        <div class="wrappeer">
-            <div class="icon instagram" onclick="window.location.href = 'https://www.instagram.com/khyatichahal/';">
-                <div class="tooltip">Instagram</div>
-                <span><i class="fab fa-instagram"></i> </span>
+        <section id="experience">
+            <h2>Experience</h2>
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">Amazon Web Services – Cloud Computing</span>
+                    <span class="item-date">Dec 2024 – Mar 2025</span>
+                </div>
+                <p class="item-description">Designed and deployed projects using AWS Management Console, focusing on EC2 and S3 services.</p>
             </div>
-            <div class="icon github" onclick="window.location.href = 'https://github.com/khyatichahal/';">
-                <div class="tooltip">GitHub</div>
-                <span><i class="fab fa-github"></i> </span>
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">Tata Group – Virtual Micro-Internship</span>
+                    <span class="item-date">Mar 2025 – Apr 2025</span>
+                </div>
+                <p class="item-description">Completed role-specific simulations in:</p>
+                <ul class="item-highlights">
+                    <li><strong>Cybersecurity:</strong> Threat analysis, policy development, breach response</li>
+                    <li><strong>ESG Analysis:</strong> Sustainability assessment, SDG alignment, ESG modeling</li>
+                    <li><strong>Data Visualization:</strong> Executive dashboards, business insights via visual storytelling</li>
+                </ul>
+                <p class="item-description">Applied Tata frameworks to address real-world business problems in a virtual setting.</p>
             </div>
-            <div class="icon linkedin"
-                onclick="window.location.href = 'https://www.linkedin.com/in/khyatichahal/';">
-                <div class="tooltip">Linkedin</div>
-                <span><i class="fab fa-linkedin"></i> </span>
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">TCS ION Career Edge – Young Professional</span>
+                    <span class="item-date">Mar 2025 – Apr 2025</span>
+                </div>
+                <p class="item-description">Completed a certified program in communication, career readiness, and technical foundations.</p>
+                <ul class="item-highlights">
+                    <li>Skills: Business etiquette, resume & interview prep, AI & IT basics</li>
+                    <li>Certification ID: 246640-28140856-1016</li>
+                </ul>
             </div>
-            <div class="icon leetcode" onclick="window.location.href = 'https://leetcode.com/u/KhyatiChahal/';">
-                <div class="tooltip">LeetCode</div>
-                <span><i class="fa-solid fa-code"></i></span> 
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">ULEARN – AI/ML Internship</span>
+                    <span class="item-date">May 10 – Jul 2, 2024</span>
+                </div>
+                <p class="item-description">Worked on AI/ML models using Python, achieving a 15% improvement in model accuracy.</p>
             </div>
+            <div class="experience-item">
+                <div class="item-header">
+                    <span class="item-title">Adhoc Tech Fusion Hackathon</span>
+                    <span class="item-date">Sep 30 – Oct 4, 2024</span>
+                </div>
+                <p class="item-description">Built a mobile app using Java & XML, highlighting teamwork and adaptability under time constraints.</p>
+            </div>
+        </section>
+
+        <section id="certifications">
+            <h2>Certifications</h2>
+            <div class="certifications-container">
+                <div>
+                    <ul class="skills-list">
+                        <li><strong>Microsoft & LinkedIn Learning:</strong> Introduction to Artificial Intelligence, Generative AI</li>
+                        <li><strong>Cisco Networking Academy:</strong> Cybersecurity Essentials, Data Science, Python Essentials</li>
+                        <li><strong>AWS:</strong> Solutions Architecture Job Simulation</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="skills-list">
+                        <li><strong>Deloitte:</strong> Data Analytics Job simulation</li>
+                        <li><strong>TCS ION Career Edge:</strong> Young Professional – IT foundational skills, Soft skills and AI</li>
+                        <li><strong>TATA:</strong> Cybersecurity Analyst job simulation, ESG job simulation, Data Visualization</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul class="skills-list">
+                        <li><strong>Oracle Academy:</strong> Java Foundations, Database Foundations</li>
+                        <li><strong>Harvard University:</strong> CS50: Introduction to Computer Science</li>
+                        <li><strong>Udemy:</strong> C Programming for Beginners</li>
+                        <li><strong>Programming Hero:</strong> Blockchain and cryptocurrency</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="languages-interests">
+            <div class="languages-interests">
+                <div>
+                    <h2>Languages</h2>
+                    <ul class="skills-list">
+                        <li>English (Fluent)</li>
+                        <li>Telugu (Native)</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>Interests/Hobbies</h2>
+                    <ul class="interests-list">
+                        <li>Public speaking</li>
+                        <li>Exploring new programming paradigms</li>
+                        <li>Science (cosmology, biology)</li>
+                        <li>Continuous learning in tech and AI ethics</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <section id="declaration">
+            <p class="declaration">
+                I hereby declare that the information provided above is true to the best of my knowledge and belief.
+            </p>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Tejaswi Tadelu. All rights reserved.</p>
+            <p>Portfolio: <a href="https://tadelutejaswi.github.io/Mustageem-Portfolio/" target="_blank" style="color: var(--light-color);">tadelutejaswi.github.io</a></p>
         </div>
-
-        <div class="cv box">
-            <button class="button"
-                onclick="window.location.href = 'https://drive.google.com/file/d/1Of2qOEGnhBMIYhwq9v65qfBQhfFHQ33m/view?usp=drivesdk';">
-                <span class="button_lg">
-                    <span class="button_sl"></span>
-                    <span class="button_text">Download My CV</span>
-                </span>
-            </button>
-        </div>
-    </div>
-
-
-    <div class="follower box">
-        <div class="wrapperpp">
-            <div class="containerpp">
-                <i class="fa-brands fa-instagram"></i>
-                <span class="num" data-val="151">000</span>
-                <span class="text">Instagram Followers</span>
-            </div>
-
-            <div class="containerpp">
-                <i class="fa-brands fa-github"></i>
-                <span class="num" data-val="21">000</span>
-                <span class="text">GitHub Followers</span>
-            </div>
-
-            <div class="containerpp ">
-                <i class="fa-brands fa-linkedin"></i>
-                <span class="num" data-val="1199">000</span>
-                <span class="text">Linkedin Followers</span>
-            </div>
-        
-        </div>
-
-    </div>
-
-
-    <script src="Section-Home/animation.js"></script>
-
-
-    <div class="end">
-        <p>© 2025 Khyati Chahal. All rights reserved.</p>
-        <p>Crafted with ❤️ & ☕ by <strong>Khyati Chahal</strong></p>
-    </div>
-    
-
+    </footer>
 </body>
-
 </html>
